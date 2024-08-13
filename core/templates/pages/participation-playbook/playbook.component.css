@@ -15,8 +15,22 @@
 }
 .playbook .oppia-teach-button {
   display: block;
-  margin: 0 auto 0 auto;
+  margin: 0 auto;
+  padding: 10px 20px;
+  background-color: #007bff; /* Blue background */
+  color: #fff; /* White text */
+  border: none;
+  border-radius: 5px; /* Rounded corners */
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none; /* Remove underline from links */
+  transition: background-color 0.3s, transform 0.2s; /* Smooth transition for hover effects */
 }
+.playbook .oppia-teach-button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+  transform: scale(1.05); /* Slightly larger on hover */
+}
+
 .playbook .oppia-publication-instructions-container {
   margin-left: 25px;
 }
